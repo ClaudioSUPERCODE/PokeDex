@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "BarlowCondensed-Regular.ttf";
+    src: url("../fonts/BarlowCondensed-Regular.ttf");
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pokeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 23%, rgba(255, 204, 0, 1) 65%);
+}
+
+.pokeItemInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    padding: 10px;
+}
+
+.pokeItem img {
+    margin-top: 5px;
+    width: 70%;
+    height: 70%;
+}
+
+.pokeItem p {
+    font-family: "BarlowCondensed-Regular.ttf";
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.pokeName {
+    margin: 0 10px 0 0;
+}
+
+.pokeItemInfo .pokeID {
+    display: flex;
+    align-items: center;
+}
+
+.pokeItemInfo .pokeID img {
+    width: 25px;
+    margin: 0 5px 0 10px;
+    animation: rotate-center;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+a {
+    color: #2e2d2d;
+    text-decoration: none;
+}

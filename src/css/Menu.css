@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "BarlowCondensed-Regular.ttf";
+    src: url("../fonts/BarlowCondensed-Regular.ttf");
+}
+
+.menuIsVisible {
+    display: block;
+    height: 100vh;
+}
+
+.menuIsHidden {
+    display: none;
+}
+
+input[type="checkbox"] {
+    /* opacity: 50%; */
+    margin-left: 10px;
+}
+
+.chooseType {
+    font-family: "BarlowCondensed-Regular.ttf";
+    font-size: 50px;
+    font-weight: 500;
+    -webkit-text-stroke: 1.5px #0075BE;
+    color: #FFCC00;
+}
+
+.form {
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+label {
+    font-family: "BarlowCondensed-Regular.ttf";
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 5px 10px 5px 0;
+    width: 100px;
+}
+
+.filterBtn {
+    font-family: "BarlowCondensed-Regular.ttf";
+    font-weight: 900;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px dotted #0075BE;
+    background-color: #FFCC00;
+    color: #0075BE;
+    font-size: 25px;
+}
+
+.filterBtn:hover {
+    cursor: pointer;
+    border: 2px dotted #FFCC00;
+    background-color: #0075BE;
+    color: #FFCC00;
+    font-size: 25px;
+}
+
+
+.bug {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #40B902;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.dark {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f1e1e;
+    border-radius: 20px;
+    color: white;
+}
+
+.dragon {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+
+.electric {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F8E601;
+    border-radius: 20px;
+    color: white;
+}
+
+.fairy {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F9C2F9;
+    border-radius: 20px;
+    color: white;
+}
+
+.fighting {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+.fire {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
+
+.flying {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(171, 171, 251);
+    border-radius: 20px;
+    color: white;
+}
+
+.ghost {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #5A1E64;
+    border-radius: 20px;
+    color: white;
+}
+
+.grass {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+}
+
+.ground {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(91, 51, 41);
+    border-radius: 20px;
+    color: white;
+}
+
+.ice {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(53, 137, 255);
+    border-radius: 20px;
+    color: white;
+}
+
+.normal {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    color: white;
+}
+
+.plant {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: greenyellow;
+    border-radius: 20px;
+    color: white;
+}
+
+.poison {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+}
+
+.psychic {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(66, 0, 128);
+    border-radius: 20px;
+    color: white;
+}
+
+.rock {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #2e2d2d;
+    border-radius: 20px;
+    color: white;
+}
+
+.steel {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(161, 159, 159);
+    border-radius: 20px;
+    color: white;
+}
+
+.water {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+    border-radius: 20px;
+    color: white;
+}

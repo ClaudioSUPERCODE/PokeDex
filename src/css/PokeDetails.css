@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "BarlowCondensed-Regular.ttf";
+    src: url("../fonts/BarlowCondensed-Regular.ttf");
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(203, 100%, 50%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(48, 100%, 50%);
+    border-radius: 30px;
+}
+
+.detailPage {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pokemonlogo {
+    width: 400px;
+    /* margin: 20px; */
+}
+
+.pokemonDetailContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 800px;
+    height: 520px;
+    border-radius: 34px;
+    border: 4px solid #2e2d2d;
+}
+
+.pokeImageAndinfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.pokeImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0 0 0;
+    width: 60%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 23%, rgba(255, 204, 0, 1) 65%);
+    background-size: cover;
+    background-position: center;
+    border-right: 4px solid #2e2d2d;
+}
+
+.pokeImage img {
+    width: 60%;
+    height: 60%;
+}
+
+.pokeInfo {
+    background-image: url("../img/Pokeball-wallpaper.jpg");
+    background-size: cover;
+    border-radius: 0 30px 0 0;
+    font-family: "BarlowCondensed-Regular.ttf";
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pokeInfo h2 {
+    padding: 0 5px;
+    font-size: 35px;
+    color: #2e2d2d;
+    background-color: white;
+    border-radius: 23px;
+    margin: 10px 0;
+}
+
+.pokeType h2 img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+.pokeType h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pokeInfoWrapper h2 img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+.pokeStats h2 img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+.stats1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stats1 p {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.stats1 p span {
+    color: #0A285F;
+}
+
+.stats2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stats2 p {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.stats2 p span {
+    color: #0A285F;
+}
+
+.pokeAttacks {
+    height: 95px;
+    overflow: scroll;
+    background-color: #2e2d2d9f;
+    margin-bottom: 5px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid black;
+}
+
+.pokeAttacks p {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.detailId-Name {
+    font-family: "BarlowCondensed-Regular.ttf";
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2e2d2d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    border-top: 4px solid #2e2d2d;
+
+}
+
+.detailPokeName {
+    margin-right: 20px;
+}
+
+.detailBall-Name {
+    display: flex;
+    align-items: center;
+}
+
+.detailBall-Name img {
+    width: 80px;
+    margin: 10px 10px 10px 20px;
+    animation: rotate-center;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.bug {
+    background-color: #40B902;
+    border-radius: 20px;
+    color: white;
+}
+
+.dark {
+    background-color: #1f1e1e;
+    border-radius: 20px;
+    color: white;
+}
+
+.dragon {
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+
+.electric {
+    background-color: #F8E601;
+    border-radius: 20px;
+    color: white;
+}
+
+.fairy {
+    background-color: #F9C2F9;
+    border-radius: 20px;
+    color: white;
+}
+
+.fighting {
+    background-color: orange;
+    border-radius: 20px;
+    color: white;
+}
+
+.fire {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+}
+
+.flying {
+    background-color: rgb(171, 171, 251);
+    border-radius: 20px;
+    color: white;
+}
+
+.ghost {
+    background-color: #5A1E64;
+    border-radius: 20px;
+    color: white;
+}
+
+.grass {
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+}
+
+.ground {
+    background-color: rgb(91, 51, 41);
+    border-radius: 20px;
+    color: white;
+}
+
+.ice {
+    background-color: rgb(53, 137, 255);
+    border-radius: 20px;
+    color: white;
+}
+
+.normal {
+    background-color: darkslateblue;
+    border-radius: 20px;
+    color: white;
+}
+
+.plant {
+    background-color: greenyellow;
+    border-radius: 20px;
+    color: white;
+}
+
+.poison {
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+}
+
+.psychic {
+    background-color: rgb(66, 0, 128);
+    border-radius: 20px;
+    color: white;
+}
+
+.rock {
+    background-color: #2e2d2d;
+    border-radius: 20px;
+    color: white;
+}
+
+.steel {
+    background-color: rgb(161, 159, 159);
+    border-radius: 20px;
+    color: white;
+}
+
+.water {
+    background-color: aqua;
+    border-radius: 20px;
+    color: white;
+}
